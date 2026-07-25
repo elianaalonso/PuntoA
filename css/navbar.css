@@ -24,9 +24,15 @@
 
 }
 
+nav{
+    margin-left: -2rem
+
+}
+
 .logo img{
 
-    height:42px;
+    height:6rem;
+    margin-top: 10px;
 
 }
 
