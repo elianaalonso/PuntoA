@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/category.css">
 
 </head>
 
@@ -127,15 +128,24 @@
 
             </div>
 
-            <div class="hero-bottom">
+            <div class="hero-features">
 
-                <span>1 año de garantía</span>
+    <div class="feature">
+        <i data-lucide="shield-check"></i>
+        <span>Equipos verificados</span>
+    </div>
 
-                <span>Importados desde EE.UU.</span>
+    <div class="feature">
+        <i data-lucide="truck"></i>
+        <span>Envíos a todo el país</span>
+    </div>
 
-                <span>Calidad A++</span>
+    <div class="feature">
+        <i data-lucide="badge-check"></i>
+        <span>Garantía incluida</span>
+    </div>
 
-            </div>
+</div>
 
         </div>
 
@@ -164,7 +174,58 @@
 
 </section>
 
-<script src="js/app.js"></script>
+<section class="categories">
+
+    <div class="container">
+
+        <div class="categories-wrapper">
+
+            <a href="#" class="category active">
+                <i data-lucide="grid-2x2"></i>
+                <span>Todos</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="smartphone"></i>
+                <span>iPhone</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="laptop"></i>
+                <span>MacBook</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="tablet"></i>
+                <span>iPad</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="watch"></i>
+                <span>Apple Watch</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="headphones"></i>
+                <span>AirPods</span>
+            </a>
+
+            <a href="#" class="category">
+                <i data-lucide="cable"></i>
+                <span>Accesorios</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+lucide.createIcons();
+</script>
 
 </body>
 
