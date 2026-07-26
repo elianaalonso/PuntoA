@@ -45,7 +45,7 @@ const products = [
         color: "Midnight",
         price: "USD 549",
         battery: "100%",
-        image: "assets/products/13.png",
+        image: "assets/products/15.png",
         badge: ""
     }
 
