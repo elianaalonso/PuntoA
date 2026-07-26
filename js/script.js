@@ -10,12 +10,12 @@ window.addEventListener("scroll", () => {
 const products = [
 
     {
-        name: "iPhone 16 Pro",
+        name: "iPhone 17",
         storage: "256 GB",
-        color: "Titanio Natural",
+        color: "Lavanda",
         price: "USD 999",
-        battery: "94%",
-        image: "assets/products/16pro.png",
+        battery: "100%",
+        image: "assets/products/17.png",
         badge: "Nuevo"
     },
 
@@ -40,7 +40,7 @@ const products = [
     },
 
     {
-        name: "iPhone 13",
+        name: "iPhone 15",
         storage: "128 GB",
         color: "Midnight",
         price: "USD 549",
